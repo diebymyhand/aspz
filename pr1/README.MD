@@ -25,6 +25,19 @@
 - process2.c - stdio.h, list.h
 - utility.c - process1.h, stdio.h
 
+### Компіляція коду
+```
+gcc -Wall -c main.c -o main.o
+gcc -Wall -c input.c -o input.o
+gcc -Wall -c output.c -o output.o
+gcc -Wall -c process1.c -o process1.o
+gcc -Wall -c process2.c -o process2.o
+gcc -Wall -c utility.c -o utility.o
+```
+```
+gcc main.o input.o output.o process1.o process2.o utility.o -o task1.5
+```
+
 ---
 
 ## Які файли потрібно перекомпілювати після внесення змін до `process1.c`?
