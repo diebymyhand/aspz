@@ -12,5 +12,7 @@ int main() {
     x = (char*) malloc(10);
     free(y);
 
+    printf("Hello world\n");
+    
     return 0;
 }
