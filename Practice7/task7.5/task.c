@@ -27,7 +27,6 @@ void list_files(const char *path) {
                 printf("Каталог: %s\n", full_path);
                 list_files(full_path);
             } else {
-                // Якщо це файл, виводимо його
                 printf("Файл: %s\n", full_path);
             }
         } else {
