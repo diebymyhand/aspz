@@ -42,7 +42,7 @@ void list_subdirectories(const char *path) {
     printf("Підкаталоги в каталозі '%s':\n", path);
     for (int i = 0; i < subdir_count; i++) {
         printf("%s\n", subdirs[i]);
-        free(subdirs[i]); // Вивільняємо пам'ять
+        free(subdirs[i]);
     }
 
     closedir(dir);
